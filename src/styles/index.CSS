@@ -123,9 +123,6 @@ section {
   width: 450px;
   height: 450px;
   border-radius: 10px;
-  position: relative;
-
-  margin-left: 100px;
 }
 
 button {
@@ -215,6 +212,7 @@ p {
   height: 375px;
   background-color: #fff;
 }
+
 /* FIM DO SERVICES */
 
 article {
@@ -244,9 +242,50 @@ article {
   line-height: normal;
 }
 
-.aboutImage img{
-  width: 330px;
-  height: 330px;
+.aboutDad {
+  display: flex;
+  align-items: center;
+  gap: 35px;
 }
 
-  
+.aboutImage img {
+  width: 330px;
+  height: 330px;
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-top: 54px;
+}
+
+.aboutText p {
+  display: flex;
+  width: 330px;
+  height: 300px;
+  padding-top: 20px;
+  align-items: center;
+  color: #fff;
+
+  text-align: justify;
+  font-family: Trykker;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.separatorAbout{
+background-color: #fff;
+
+width: 1px;
+height: 410px;
+margin-left: 106px;
+
+}
+.separatorAbout1{
+background-color: #fff;
+width: 489px;
+height: 414px;
+margin-left: 106px;
+border-radius: 25px;
+background-color: rgba(255, 255, 255, 0.84);
+}
+
