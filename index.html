@@ -13,9 +13,9 @@
         <h1>Black Beard</h1>
         <div class="separator"></div>
         <div class="headerNav">
-          <a href='https://www.uniaoquimica.com.br/" target='>Serviços</a>
-          <a href="https://www.ache.com.br/">Sobre</a>
-          <a href='https://www.neoquimica.com.br/" target='>Contatos</a>
+          <a href="#services">Serviços</a>
+          <a href="#about">Sobre</a>
+          <a href="#contacts">Contatos</a>
         </div>
       </div>
 
@@ -31,7 +31,11 @@
           tornar uma pedra rara.
         </h2>
         <p>Horario de Funcionamento: 09:00 ás 21:00 Hrs</p>
-        <button>Agendar Horario</button>
+        <a
+          href="https://api.whatsapp.com/send/?phone=5511916550910&text=Ol%C3%A1%21+Gostaria+de+agendar+um+hor%C3%A1rio.&type=phone_number&app_absent=0"
+          target="_blank"
+          ><button>Agendar Horario</button></a
+        >
       </div>
 
       <img
@@ -41,7 +45,7 @@
       />
     </section>
 
-    <main>
+    <main id="services">
       <div class="servicesContent">
         <img src="./src/images/png/logoBarber.png" alt="logo" />
         <h4>Serviços</h4>
@@ -74,7 +78,7 @@
       </div>
     </main>
 
-    <article>
+    <article id="about">
       <div class="aboutContent">
         <img src="./src/images/png/logoBarber.png" alt="logo" />
         <h4>Sobre</h4>
@@ -114,15 +118,30 @@
       </div>
     </article>
 
-    <footer>
-      <img src="./src/images/svg/🦆 icon _Envelope_.png" alt="logoEnvolepe" />
-      <p>contato@blackbeard.com.br</p>
+    <footer id="contacts">
+      <div class="adress">
+        <img src="./src/images/svg/🦆 icon _Envelope_.png" alt="logoEnvolepe" />
+        <h6>contato@blackbeard.com.br</h6>
+      </div>
 
-      <img src="./src/images/svg/🦆 icon _What's App_.png" alt="logoWhatsapp" />
-      <img src="./src/images/svg/🦆 icon _Instagram_.png" alt="logoInstagram" />
-      <img src="./src/images/svg/🦆 icon _LinkedIn_.png" alt="logoLinkeldin" />
+      <div class="reserved">
+        <p>© Barbearia Black Beard 2024. Todos direitos reservados.</p>
+      </div>
 
-      <p>© Barbearia Black Beard 2024. Todos direitos reservados.</p>
+      <div class="socialMediaLogo">
+        <img
+          src="./src/images/svg/🦆 icon _What's App_.png"
+          alt="logoWhatsapp"
+        />
+        <img
+          src="./src/images/svg/🦆 icon _Instagram_.png"
+          alt="logoInstagram"
+        />
+        <img
+          src="./src/images/svg/🦆 icon _LinkedIn_.png"
+          alt="logoLinkeldin"
+        />
+      </div>
     </footer>
   </body>
 </html>
