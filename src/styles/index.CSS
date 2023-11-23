@@ -218,6 +218,7 @@ p {
 
 article {
   background-color: #000;
+  background-color: blueviolet;
   display: flex;
   flex-direction: column;
   width: auto;
@@ -266,7 +267,7 @@ article {
   color: #fff;
 
   text-align: justify;
-  font-family: Trykker;
+  font-family: "Trykker";
   font-size: 21px;
   font-style: normal;
   font-weight: 400;
@@ -280,13 +281,64 @@ article {
   height: 410px;
   margin-left: 10px;
 }
-.separatorAbout1 {
+.locationCard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   background-color: #fff;
-  width: 889px;
+  width: 489px;
   height: 414px;
+  flex-shrink: 0;
   border-radius: 25px;
+  margin-bottom: 15.89px;
 }
 
+.cardText {
+  justify-content: center;
+  align-items: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+.locationText {
+  display: flex;
+  flex-direction: row;
+  color: black;
+  align-items: center;
+  gap: 8px;
+}
+.textContainer {
+  display: flex;
+  flex-direction: row;
+}
+.textMapSup {
+  display: flex;
+  margin-bottom: 15px;
+  color: #a00909;
+  text-align: center;
+  font-family: "Secular One";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+.textMap {
+  display: flex;
+  margin-bottom: 15px;
+  color: #000;
+  text-align: justify;
+  font-family: "Secular One";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
 /* FIM DO ABOUT */
 
 footer {

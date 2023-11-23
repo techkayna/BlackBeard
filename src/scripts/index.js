@@ -74,7 +74,7 @@ const list = ['a', 'b', 'c', 'd', 'e']
 
 console.log(list.length)
 
-console.log(list[2])
+console.log(list[0])
 
 list[5] = 'f'
 
