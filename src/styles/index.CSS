@@ -30,7 +30,7 @@ header {
 
   color: #fff;
   text-align: center;
-  font-family: Saira Condensed;
+  font-family: "Scheherazade New";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -53,7 +53,7 @@ header {
 
   color: #fff;
   text-align: center;
-  font-family: Secular One;
+  font-family: "Secular One";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -101,7 +101,7 @@ section {
   color: #fff;
 
   text-align: justify;
-  font-family: Trykker;
+  font-family: "Trykker";
   font-size: 27px;
   font-style: normal;
   font-weight: 400;
@@ -112,7 +112,7 @@ section {
   color: #fff;
 
   text-align: justify;
-  font-family: Trispace;
+  font-family: "Trispace";
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -136,7 +136,7 @@ button {
 
   color: #fff;
   text-align: center;
-  font-family: Trispace;
+  font-family: "Trispace";
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -167,7 +167,7 @@ main {
   align-items: center;
   gap: 11px;
 
-  font-family: Secular One;
+  font-family: "Secular One";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -177,7 +177,7 @@ main {
 p {
   color: white;
   font-size: 17px;
-  font-family: Trispace;
+  font-family: "Trispace";
   font-weight: 700;
 
   text-align: center;
@@ -237,7 +237,7 @@ article {
   align-items: center;
   gap: 11px;
 
-  font-family: Secular One;
+  font-family: "Secular One";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -295,11 +295,15 @@ article {
 }
 
 .cardText {
+  width: 348px;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   color: black;
   display: flex;
   flex-direction: column;
+  gap: 12px;
+  padding-right: 112px;
+  padding-top: 14px;
 }
 .locationText {
   display: flex;
@@ -308,6 +312,7 @@ article {
   align-items: center;
   gap: 8px;
 }
+
 .textContainer {
   display: flex;
   flex-direction: row;
@@ -322,7 +327,6 @@ article {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  
 }
 .textMap {
   display: flex;
@@ -356,11 +360,12 @@ footer h6 {
   margin-left: 10px;
 
   text-align: center;
-  font-family: Trykker;
+  font-family: "Trykker";
   font-size: 1.1875rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  padding-bottom: 9px;
 }
 .reserved {
   display: flex;
@@ -370,7 +375,7 @@ footer h6 {
   color: #fff;
 
   text-align: center;
-  font-family: Trykker;
+  font-family: "Trykker";
   font-size: 1.125rem;
 
   font-style: normal;
@@ -394,8 +399,13 @@ footer h6 {
 }
 
 address img {
-  width: 1.875rem;
-  height: 1.52213rem;
+  display: flex;
+  width: 30px;
+  height: 25px;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* FIM DO FOOTER */
