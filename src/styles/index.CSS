@@ -291,7 +291,7 @@ article {
   justify-content: center;
   flex-direction: column;
   /* align-items: center; */
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.84);
   width: 489px;
   height: 414px;
   border-radius: 25px;
@@ -334,13 +334,14 @@ h3 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  font-weight: bold;
 }
 
 .separatorMap {
   display: flex;
   justify-content: center;
-  width: 240px;
-  height: 2px;
+  width: 230px;
+  height: 1.7px;
   background-color: #000;
   margin-top: 25px;
   margin-left: 36px;
@@ -348,22 +349,28 @@ h3 {
 
 .locationText {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   color: black;
-  align-items: center;
+  justify-content: start;
+  margin-bottom: 75px;
 
-  margin-top: 10px;
   gap: 2px;
 }
 .locationText img {
+  width: 19px;
+}
+
+.fuckDiv{
   display: flex;
-  margin-left: 5px;
+  align-items: center;
+ margin-bottom: 5px;
 }
 
 .textContainer {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-left: 30px;
+  align-items: center;
 }
 button {
   display: flex;
@@ -373,9 +380,10 @@ button {
   justify-content: center;
   border-radius: 0;
   border: 1px solid black;
-  background-color: white;
-
+  background-color: rgba(255, 255, 255, 0.84);
+  font-weight: bold;
   margin-left: 10px;
+  /* margin-bottom: 8px; */
 }
 
 .textMap {
@@ -387,6 +395,8 @@ button {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.84);
 }
 p {
   color: #000;
@@ -397,17 +407,32 @@ p {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  
 }
 
-.imageMap {
-  width: 50px;
-  height: 50px;
-}
-
-.dadLocation{
+.dadLocation {
   display: flex;
-  justify-content: ;
+  justify-content: right;
   flex-direction: row;
+}
+
+
+.consultMap {
+  display: flex;
+  width: auto;
+  height: 208.136px;
+}
+
+.consultText {
+  width: 222px;
+  color: #000;
+  text-align: justify;
+  font-family: "Secular One";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-weight: bold;
 }
 
 footer {
