@@ -139,6 +139,7 @@ section {
   font-weight: 500;
   line-height: normal;
   border: none;
+  font-weight: bold;
 }
 
 /* FIM DO HERO */
@@ -171,9 +172,9 @@ main {
   line-height: normal;
 }
 
-p {
+.servicesValue {
   color: white;
-  font-size: 17px;
+  font-size: 18px;
   font-family: "Trispace";
   font-weight: 700;
 
