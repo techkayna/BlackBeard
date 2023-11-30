@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>blackbeardbarber</title>
+    <title>BlackBeardBarber</title>
     <link rel="stylesheet" href="./src/styles/index.CSS" />
+    <script src="./src/scripts/index.js"></script>
   </head>
   <body>
     <header>
@@ -13,9 +14,9 @@
         <h1>Black Beard</h1>
         <div class="separator"></div>
         <div class="headerNav">
-          <a href='https://www.uniaoquimica.com.br/" target='>Serviços</a>
-          <a href="https://www.ache.com.br/">Sobre</a>
-          <a href='https://www.neoquimica.com.br/" target='>Contatos</a>
+          <a href="#services">Serviços</a>
+          <a href="#about">Sobre</a>
+          <a href="#contacts">Contatos</a>
         </div>
       </div>
 
@@ -31,7 +32,11 @@
           tornar uma pedra rara.
         </h2>
         <p>Horario de Funcionamento: 09:00 ás 21:00 Hrs</p>
-        <button>Agendar Horario</button>
+        <a
+          href="https://api.whatsapp.com/send/?phone=5511916550910&text=Ol%C3%A1%21+Gostaria+de+agendar+um+hor%C3%A1rio.&type=phone_number&app_absent=0"
+          target="_blank"
+          ><button class="agendement">Agendar Horario</button></a
+        >
       </div>
 
       <img
@@ -41,7 +46,7 @@
       />
     </section>
 
-    <main>
+    <main id="services">
       <div class="servicesContent">
         <img src="./src/images/png/logoBarber.png" alt="logo" />
         <h4>Serviços</h4>
@@ -49,7 +54,7 @@
       <div class="servicesCard">
         <div class="servicesImage1">
           <img src="./src/images/png/servicesImage 1.jpg" alt="corte simples" />
-          <p>Corte Simples R$ 45,00</p>
+          <p class="servicesValue">Corte Simples R$ 45,00</p>
         </div>
 
         <div class="separatorServices"></div>
@@ -59,7 +64,7 @@
             src="./src/images/png/servicesImage 2.jpg"
             alt="barba completa"
           />
-          <p>Barba Completa R$ 30,00</p>
+          <p class="servicesValue">Barba Completa R$ 30,00</p>
         </div>
 
         <div class="separatorServices"></div>
@@ -69,12 +74,12 @@
             src="./src/images/png/servicesImage 3.jpg"
             alt="corte completo"
           />
-          <p>Corte Completo R$ 60,00</p>
+          <p class="servicesValue">Corte Completo R$ 60,00</p>
         </div>
       </div>
     </main>
 
-    <article>
+    <article id="about">
       <div class="aboutContent">
         <img src="./src/images/png/logoBarber.png" alt="logo" />
         <h4>Sobre</h4>
@@ -82,8 +87,7 @@
       <div class="aboutDad">
         <div class="aboutImage">
           <img src="./src/images/png/aboutImage.jpg" alt="aboutImage" />
-        </div>
-        <div class="aboutText">
+          
           <p>
             A Barbearia Black Beard nasceu em uma comunidade vibrante como um
             refúgio de beleza e empoderamento para afrodescendentes. Fundado por
@@ -94,35 +98,94 @@
           </p>
         </div>
         <div class="separatorAbout"></div>
-        <div class="separatorAbout1"></div>
-
         <div class="locationCard">
-          <img
-            src="./src/images/png/ab76ba_e9d421f29a9342078771a8241490f0bd~mv2 1 (1).png"
-            alt="locationIconRed"
-          />
-          <p>Rua Amador Bueno, 504 Santo Amaro | São Paulo | 04752-000</p>
-          <h6>Tel 11 4022 - 8922</h6>
-          <img
-            src="./src/images/svg/locationIconBlack.svg"
-            alt="locationIconBlack"
-          />
-          <p>Veja no Maps!</p>
-          <p>Segunda á Sábado 09h ás 21h Domingos e Feriados 14h ás 19h</p>
-          <img src="./src/images/png/image 2.png" alt="maps" />
+          <div class="cardText">
+            <div class="locationTitle">
+              <img
+                src="./src/images/png/ab76ba_e9d421f29a9342078771a8241490f0bd~mv2 1 (1).png"
+                alt="locationIconRed"
+              />
+              <p>Largo Treze</p>
+            </div>
+            <h3>
+              Rua Amador Bueno, 504 <br />
+              Santo Amaro | São Paulo | 04752-000 <br />
+              Tel. (11) 4002-8922
+            </h3>
+          </div>
+
+          <div class="separatorMap"></div>
+
+          <div dadLocation>
+            <div class="textContainer">
+              <div class="locationText">
+                <div  class="fuckDiv">
+                  <img
+                    src="./src/images/svg/locationIconBlack.svg"
+                    alt="locationIconBlack"
+                  />
+                  <a
+                    href="https://www.google.com.br/maps/place/Escola+Senai+Ary+Torres/@-23.6522073,-46.7152691,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce51aa42392011:0xfbca76924e7bddaa!8m2!3d-23.6522122!4d-46.7126942!16s%2Fg%2F1tscq3sy?entry=ttu"
+                    target="_blank"
+                    ><button class="textMap">Veja no Maps!</button></a
+                  >
+                </div>
+                <p class="consultText">
+                  Segunda á Sábado 09h ás 21h <br />
+                  Domingos e Feriados 14h ás 19h
+                </p>
+              </div>
+              <div class="consultMap">
+                <img src="./src/images/png/image 2.png" alt="map" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </article>
 
-    <footer>
-      <img src="./src/images/svg/🦆 icon _Envelope_.png" alt="logoEnvolepe" />
-      <p>contato@blackbeard.com.br</p>
+    <footer id="contacts">
+      <div class="adress">
+        <a
+          href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+          target="_blank"
+          ><img
+            src="./src/images/svg/🦆 icon _Envelope_.png"
+            alt="logoEnvolepe"
+        /></a>
+        <a
+          href="https://mail.google.com/mail/u/0/#inbox?compose=new"
+          target="_blank"
+          ><h6>contato@blackbeard.com.br</h6></a
+        >
+      </div>
 
-      <img src="./src/images/svg/🦆 icon _What's App_.png" alt="logoWhatsapp" />
-      <img src="./src/images/svg/🦆 icon _Instagram_.png" alt="logoInstagram" />
-      <img src="./src/images/svg/🦆 icon _LinkedIn_.png" alt="logoLinkeldin" />
+      <div class="reserved">
+        <p>© Barbearia Black Beard 2024. Todos direitos reservados.</p>
+      </div>
 
-      <p>© Barbearia Black Beard 2024. Todos direitos reservados.</p>
+      <div class="socialMediaLogo">
+        <a
+          href="https://api.whatsapp.com/send/?phone=5511916550910&text=Ol%C3%A1%21+Gostaria+de+agendar+um+hor%C3%A1rio.&type=phone_number&app_absent=0"
+          target="_blank"
+          ><img
+            src="./src/images/svg/🦆 icon _What's App_.png"
+            alt="logoWhatsapp"
+        /></a>
+        <a
+          href="https://www.instagram.com/bocade09/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="
+          target="_blank"
+          ><img
+            src="./src/images/svg/🦆 icon _Instagram_.png"
+            alt="logoInstagram"
+        /></a>
+        <a href="https://www.linkedin.com/in/andrew-kayn%C3%A3/" target="_blank">
+          <img
+            src="./src/images/svg/🦆 icon _LinkedIn_.png"
+            alt="logoLinkeldin"
+          />
+        </a>
+      </div>
     </footer>
   </body>
 </html>

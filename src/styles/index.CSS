@@ -30,7 +30,7 @@ header {
 
   color: #fff;
   text-align: center;
-  font-family: Saira Condensed;
+  font-family: "Scheherazade New";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -53,7 +53,7 @@ header {
 
   color: #fff;
   text-align: center;
-  font-family: Secular One;
+  font-family: "Secular One";
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -101,7 +101,7 @@ section {
   color: #fff;
 
   text-align: justify;
-  font-family: Trykker;
+  font-family: "Trykker";
   font-size: 27px;
   font-style: normal;
   font-weight: 400;
@@ -112,7 +112,7 @@ section {
   color: #fff;
 
   text-align: justify;
-  font-family: Trispace;
+  font-family: "Trispace";
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -125,23 +125,21 @@ section {
   border-radius: 10px;
 }
 
-button {
+.agendement {
   width: 301px;
   height: 44px;
-
   margin-right: 100px;
-
   background-color: #653929b2;
   border-radius: 13px;
-
   color: #fff;
   text-align: center;
-  font-family: Trispace;
+  font-family: "Trispace";
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   border: none;
+  font-weight: bold;
 }
 
 /* FIM DO HERO */
@@ -151,7 +149,7 @@ main {
   display: flex;
   flex-direction: column;
   width: auto;
-  height: 580px;
+  height: 680px;
 }
 
 .servicesContent img {
@@ -167,17 +165,17 @@ main {
   align-items: center;
   gap: 11px;
 
-  font-family: Secular One;
+  font-family: "Secular One";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
-p {
+.servicesValue {
   color: white;
-  font-size: 17px;
-  font-family: Trispace;
+  font-size: 18px;
+  font-family: "Trispace";
   font-weight: 700;
 
   text-align: center;
@@ -186,7 +184,7 @@ p {
 }
 
 .servicesCard {
-  margin-top: 58px;
+  margin-top: 100px;
   /* margin-left: 194px; */
   display: flex;
   align-items: center;
@@ -195,6 +193,7 @@ p {
 }
 
 .servicesImage1 img {
+  display: flex;
   width: 300px;
   border-radius: 10px;
 }
@@ -220,7 +219,7 @@ article {
   display: flex;
   flex-direction: column;
   width: auto;
-  height: 570px;
+  height: 670px;
 }
 .aboutContent img {
   width: 55px;
@@ -235,7 +234,7 @@ article {
   align-items: center;
   gap: 11px;
 
-  font-family: Secular One;
+  font-family: "Secular One";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -247,45 +246,266 @@ article {
   align-items: center;
   gap: 35px;
 }
+.aboutImage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
 .aboutImage img {
   width: 330px;
   height: 330px;
   border-radius: 10px;
   margin-left: 100px;
-  margin-top: 54px;
+  margin-top: 84px;
+  padding-right: 30px;
 }
 
-.aboutText p {
+.aboutImage p {
   display: flex;
   width: 330px;
   height: 300px;
-  padding-top: 20px;
+  padding-top: 40px;
   align-items: center;
   color: #fff;
 
   text-align: justify;
-  font-family: Trykker;
+  font-family: "Trykker";
   font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin-right: 100px;
+}
+
+.separatorAbout {
+  background-color: #fff;
+
+  width: 1px;
+  height: 410px;
+  margin-left: 10px;
+}
+.locationCard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: center; */
+  background-color: rgba(255, 255, 255, 0.84);
+  width: 489px;
+  height: 414px;
+  border-radius: 25px;
+  margin-bottom: 15.89px;
+
+  margin-left: 110px;
+}
+
+.cardText {
+  width: 348px;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  padding-top: 14px;
+}
+
+h3 {
+  display: flex;
+  padding-left: 12px;
+}
+
+.locationTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 140px;
+}
+.locationTitle p {
+  /* padding-top: 10px; */
+  display: flex;
+  margin-bottom: 15px;
+  color: #a00909;
+  text-align: center;
+  font-family: "Secular One";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-weight: bold;
+}
+
+.separatorMap {
+  display: flex;
+  justify-content: center;
+  width: 230px;
+  height: 1.7px;
+  background-color: #000;
+  margin-top: 25px;
+  margin-left: 36px;
+}
+
+.locationText {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  justify-content: start;
+  margin-bottom: 75px;
+
+  gap: 2px;
+}
+.locationText img {
+  width: 19px;
+}
+
+.fuckDiv{
+  display: flex;
+  align-items: center;
+ margin-bottom: 5px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  align-items: center;
+}
+button {
+  display: flex;
+  width: 127px;
+  height: 31px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.84);
+  font-weight: bold;
+  margin-left: 10px;
+  /* margin-bottom: 8px; */
+}
+
+.textMap {
+  display: flex;
+  color: #000;
+  text-align: justify;
+  font-family: "Secular One";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.84);
+}
+p {
+  color: #000;
+  margin-left: 7px;
+  text-align: justify;
+  font-family: "Secular One";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+
+.dadLocation {
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+}
+
+
+.consultMap {
+  display: flex;
+  width: auto;
+  height: 208.136px;
+}
+
+.consultText {
+  width: 222px;
+  color: #000;
+  text-align: justify;
+  font-family: "Secular One";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #000;
+  display: flex;
+  width: auto;
+  height: 160px;
+  justify-content: center;
+  /* flex-direction: column; */
+}
+
+footer h6 {
+  color: #fff;
+  padding-right: 150px;
+  margin-left: 10px;
+
+  text-align: center;
+  font-family: "Trykker";
+  font-size: 1.1875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 9px;
+}
+.reserved {
+  display: flex;
+  align-items: end;
+  margin-right: 85px;
+
+  color: #fff;
+
+  text-align: center;
+  font-family: "Trykker";
+  font-size: 1.125rem;
+
   font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
-.separatorAbout{
-background-color: #fff;
-
-width: 1px;
-height: 410px;
-margin-left: 106px;
-
-}
-.separatorAbout1{
-background-color: #fff;
-width: 489px;
-height: 414px;
-margin-left: 106px;
-border-radius: 25px;
-background-color: rgba(255, 255, 255, 0.84);
+.socialMediaLogo img {
+  width: 25px;
+  height: 25px;
 }
 
+.socialMediaLogo {
+  display: flex;
+  gap: 120px;
+  align-items: center;
+}
+.adress {
+  display: flex;
+  align-items: center;
+}
+.reserved p {
+  color: #fff;
+
+  text-align: center;
+  font-family: "Trykker";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+address img {
+  display: flex;
+  width: 30px;
+  height: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* FIM DO FOOTER */
