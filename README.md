@@ -5,3 +5,4 @@ Este projeto foi feito com o intuito de me aperfeiçoar na criação de uma gama
 ## Tecnologias
 * HTML
 * CSS
+* JavaScript
